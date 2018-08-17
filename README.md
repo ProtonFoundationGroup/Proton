@@ -1,6 +1,6 @@
 # Proton
 
-Proton is an [Ethereum-compatible](https://github.com/ProtonFoundation/Proton) project. It uses a new consensus and new block reward .
+Proton is an [Ethereum-compatible](https://github.com/ProtonFoundation/Proton) project. It will uses a new consensus.
 
 ## Build the source
 
@@ -25,9 +25,9 @@ Building Proton requires both a Go (version 1.9.2 or later) and a C compiler. Yo
 		$ git clone https://github.com/ProtonFoundation/Proton.git
 	4）compile the source code
 		$ cd Proton
-		$ make smc
+		$ make proton
 	5）run the program
-		$ ./build/bin/smc console
+		$ ./build/bin/proton console
 
 ### Mac
 
@@ -39,7 +39,7 @@ Building Proton requires both a Go (version 1.9.2 or later) and a C compiler. Yo
 	2）Install by using source code
 
         	$ cd Proton
-        	$ make smc
+        	$ make proton
 
 		If any error happens during the compiling and prompt message shows " lacking of the header file that is related to the Mac OS", you may try to install the xcode command-line tool before executing above commands:
 
@@ -47,7 +47,7 @@ Building Proton requires both a Go (version 1.9.2 or later) and a C compiler. Yo
 
 	3） startup
 
-        	$ build/bin/smc console
+        	$ build/bin/proton console
 
 ### Windows
 
@@ -70,20 +70,20 @@ Building Proton requires both a Go (version 1.9.2 or later) and a C compiler. Yo
 		...\ProtonFoundation> cd Proton
 		...\ProtonFoundation> go install -v ./cmd/...
 	6）run the program：
-		c:\Users\xxx> smc console
+		c:\Users\xxx> proton console
 
 
 
 ## Encrypt your nodekey
 
-     $ ./build/bin/smc security --passwd
+     $ ./build/bin/proton security --passwd
 ## Decrypt your nodekey
 
-     $ ./build/bin/smc security --unlock
+     $ ./build/bin/proton security --unlock
 
-## Run fast node to test smc
+## Run fast node to test proton
 
-    $ ./build/bin/smc console
+    $ ./build/bin/proton console
 
 ## Create new account
 
