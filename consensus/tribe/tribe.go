@@ -103,7 +103,7 @@ func New(config *params.TribeConfig, db ethdb.Database) *Tribe {
 	}
 	tribe := &Tribe{
 		config:      &conf,
-		db:          db,
+		//db:          db,
 		Status:      status,
 		sigcache:    sigcache,
 		SealErrorCh: make(map[int64]error),
@@ -427,18 +427,8 @@ func (t *Tribe) Prepare(chain consensus.ChainReader, header *types.Header) error
 // Finalize implements consensus.Engine, ensuring no uncles are set, nor block
 // rewards given, and returns the final block.
 func (t *Tribe) Finalize(chain consensus.ChainReader, header *types.Header, state *state.StateDB, txs []*types.Transaction, uncles []*types.Header, receipts []*types.Receipt) (*types.Block, error) {
-	//fmt.Println("-- Tribe.Finalize --> txs :",txs)
-	/* test contract reward >>>
-	if header.Number.Cmp(big.NewInt(594651)) > 0 && header.Number.Cmp(big.NewInt(594661)) < 0 {
-		fmt.Println("  👿  ==== 👼  ",header.Number.String())
-		eth := new(big.Int).SetUint64(params.Ether)
-		state.AddBalance(common.HexToAddress("0x2085b57ccdb42e7f8c584586d10558906cf19594"),new(big.Int).Mul(eth,big.NewInt(1000000)));
-	}
-	//test contract reward <<< */
-	// No block rewards in Tribe, so the state remains as is and uncles are dropped
 	header.Root = state.IntermediateRoot(chain.Config().IsEIP158(header.Number))
 	header.UncleHash = types.CalcUncleHash(nil)
-	// Assemble and return the final block for sealing
 	return types.NewBlock(header, txs, nil, receipts), nil
 }
 

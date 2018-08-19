@@ -52,4 +52,4 @@ Mkfile.old
 dkms.conf
 
 .idea
-build/bin
+./build/bin

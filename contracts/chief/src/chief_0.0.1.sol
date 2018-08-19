@@ -56,8 +56,8 @@ contract TribeChief_0_0_1 {
             }
         } else {
             // normal default for testing
-            // 0x4110bd1ff0b73fa12c259acf39c950277f266787;
-            address g1 = uint160(371457687117486736155821182390123011782146942855);
+            // 0xfcb8c85162d58b6eae785f5fd2bde844fc1b5a16;
+            address g1 = uint160(1442786461515568398251958065860928162059249211926);
             genesisSigner[g1] = true;
             _genesisSignerList.push(g1);
             pushSigner(g1, 3);

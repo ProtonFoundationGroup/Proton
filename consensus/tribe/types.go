@@ -13,7 +13,6 @@ import (
 	"github.com/ProtonFundation/Proton/common/hexutil"
 	"github.com/ProtonFundation/Proton/consensus"
 	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/ethdb"
 	"github.com/ProtonFundation/Proton/params"
 	"github.com/hashicorp/golang-lru"
 )
@@ -100,7 +99,7 @@ var (
 
 type Tribe struct {
 	config   *params.TribeConfig // Consensus engine configuration parameters
-	db       ethdb.Database      // Database to store and retrieve snapshot checkpoints
+	//db       ethdb.Database      // Database to store and retrieve snapshot checkpoints
 	sigcache *lru.ARCCache       // mapping block.hash -> signer
 	//signer      common.Address      // Ethereum address of the signing key
 	signFn           SignerFn     // Signer function to authorize hashes with

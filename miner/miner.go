@@ -117,9 +117,13 @@ func (self *Miner) Start(coinbase common.Address) {
 	log.Info("Starting mining operation")
 
 	if tribe, ok := self.engine.(*tribe.Tribe); ok {
+		fmt.Println("-->",tribe.Status.Number)
+		fmt.Println("-->",tribe.Status.Number)
+		fmt.Println("-->",tribe.Status.Number)
+		fmt.Println("-->",tribe.Status.Number)
 		i := 0
 	ENDCHECK:
-		for {
+		for tribe.Status.Number > 2 {
 			m := tribe.Status.GetMinerAddress()
 			s, err := self.worker.chain.State()
 			if err != nil {

@@ -24,8 +24,8 @@ import (
 )
 
 var (
-	MainnetGenesisHash = common.HexToHash("0xa8ab5ecb308dd061e6baa8c8a04a62b3e35fae7aae1393921f8d52deac2c5712") // enforce below configs on
-	TestnetGenesisHash = common.HexToHash("0x28242478c4f01d9208a79d962b7f6383af488565f36aea7038a34020c07db697") // Testnet genesis hash to enforce below configs on
+	MainnetGenesisHash = common.HexToHash("0x6188fb5e8337c310fa21c774b939073103b77b76de627083cf64ae3e4f8a3710") // enforce below configs on
+	TestnetGenesisHash = common.HexToHash("0x6113b035811bc59a722de79e7cf734ca33c7ec1d5c8c39ab688f2a01ddf585f6") // Testnet genesis hash to enforce below configs on
 )
 
 var (
@@ -58,7 +58,7 @@ var (
 		ByzantiumBlock: big.NewInt(0),
 		// if skip this vsn please set 0 or nil to block and set common.Address{} to address
 		Chief001Block:   big.NewInt(2),
-		Chief001Address: common.HexToAddress("0x"),
+		Chief001Address: common.HexToAddress("0xa778e0ad3677ec9d9da0af569f55b15c654d73e4"),
 		// new rules for chief.tx of gaspool
 		Tribe:           &TribeConfig{},
 	}
