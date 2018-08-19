@@ -20,6 +20,7 @@ var MainnetBootnodes = []string{
 }
 
 var TestnetBootnodes = []string{
+	"enode://41b30f28e40db2be8ae0d6520530f7c3b0f3623adf56af1538a15af3a9dcd43b226ac81952f02bd3bc59c46a74057a8a32004ba044c881c9d1739f38003b5928@192.144.172.158:60605",
 }
 
 var RinkebyBootnodes = []string{
