@@ -28,9 +28,9 @@ import (
 
 const (
 	DefaultHTTPHost = "localhost" // Default host interface for the HTTP RPC server
-	DefaultHTTPPort = 18545        // Default TCP port for the HTTP RPC server
+	DefaultHTTPPort = 28545        // Default TCP port for the HTTP RPC server
 	DefaultWSHost   = "localhost" // Default host interface for the websocket RPC server
-	DefaultWSPort   = 18546        // Default TCP port for the websocket RPC server
+	DefaultWSPort   = 28546        // Default TCP port for the websocket RPC server
 )
 
 // DefaultConfig contains reasonable default settings.
@@ -41,8 +41,8 @@ var DefaultConfig = Config{
 	WSPort:      DefaultWSPort,
 	WSModules:   []string{"net", "web3"},
 	P2P: p2p.Config{
-		ListenAddr:      ":60303",
-		DiscoveryV5Addr: ":44945",
+		ListenAddr:      ":60606",
+		DiscoveryV5Addr: ":60666",
 		MaxPeers:        25,
 		NAT:             nat.Any(),
 	},

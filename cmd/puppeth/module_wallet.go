@@ -60,7 +60,7 @@ services:
     ports:
       - "{{.NodePort}}:{{.NodePort}}"
       - "{{.NodePort}}:{{.NodePort}}/udp"
-      - "{{.RPCPort}}:8545"{{if not .VHost}}
+      - "{{.RPCPort}}:28545"{{if not .VHost}}
       - "{{.WebPort}}:80"{{end}}
     volumes:
       - {{.Datadir}}:/root/.ethereum
