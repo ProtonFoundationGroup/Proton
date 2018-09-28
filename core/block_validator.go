@@ -74,6 +74,16 @@ func (v *BlockValidator) ValidateBody(parent, block *types.Block) error {
 	if hash := types.CalcUncleHash(block.Uncles()); hash != header.UncleHash {
 		return fmt.Errorf("uncle root hash mismatch: have %x, want %x", hash, header.UncleHash)
 	}
+
+	// add by liangc : error block : incompatible HomesteadSigner
+	if params.IsNR001Block(header.Number) {
+		for _, tx := range block.Transactions() {
+			if !tx.Protected() {
+				return fmt.Errorf("Incompatible HomesteadSigner now num=%d tx=%s",header.Number.Int64(), tx.Hash().Hex())
+			}
+		}
+	}
+
 	if hash := types.DeriveSha(block.Transactions()); hash != header.TxHash {
 		return fmt.Errorf("transaction root hash mismatch: have %x, want %x", hash, header.TxHash)
 	}

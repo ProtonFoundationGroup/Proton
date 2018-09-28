@@ -31,15 +31,15 @@ var (
 var (
 	// MainnetChainConfig is the chain parameters to run a node on the main network.
 	MainnetChainConfig = &ChainConfig{
-		ChainId:        big.NewInt(20170611),
-		HomesteadBlock: big.NewInt(0),
-		DAOForkBlock:   nil,
-		DAOForkSupport: false,
-		EIP150Block:    nil,
-		EIP150Hash:     common.Hash{},
-		EIP155Block:    big.NewInt(0),
-		EIP158Block:    big.NewInt(0),
-		ByzantiumBlock: big.NewInt(0),
+		ChainId:         big.NewInt(20170611),
+		HomesteadBlock:  big.NewInt(0),
+		DAOForkBlock:    nil,
+		DAOForkSupport:  false,
+		EIP150Block:     nil,
+		EIP150Hash:      common.Hash{},
+		EIP155Block:     big.NewInt(0),
+		EIP158Block:     big.NewInt(0),
+		ByzantiumBlock:  big.NewInt(0),
 		Chief001Block:   big.NewInt(2),
 		Chief001Address: common.HexToAddress("0x"),
 		Tribe:           &TribeConfig{},
@@ -60,7 +60,8 @@ var (
 		Chief001Block:   big.NewInt(2),
 		Chief001Address: common.HexToAddress("0xa778e0ad3677ec9d9da0af569f55b15c654d73e4"),
 		// new rules for chief.tx of gaspool
-		Tribe:           &TribeConfig{},
+		NR001Block: big.NewInt(250000),
+		Tribe: &TribeConfig{},
 	}
 
 	// RinkebyChainConfig contains the chain parameters to run a node on the Rinkeby test network.
@@ -133,7 +134,7 @@ var (
 		Clique:         nil,
 		Tribe:          nil,
 	}
-	TestRules       = TestChainConfig.Rules(new(big.Int))
+	TestRules = TestChainConfig.Rules(new(big.Int))
 )
 
 // ChainConfig is the core config which determines the blockchain settings.
@@ -167,8 +168,11 @@ type ChainConfig struct {
 	// chief.sol vsn 0.0.1
 	Chief001Block   *big.Int       `json:"chief001Block,omitempty"`
 	Chief001Address common.Address `json:"chief001Address,omitempty"`
-	// <<< add by liangc : set chief start number <<<
 
+	// add by liangc : 18-09-13 : incompatible HomesteadSigner begin at this number
+	NR001Block *big.Int `json:"nr003Block,omitempty"`
+
+	// <<< add by liangc : set chief start number <<<
 }
 
 // EthashConfig is the consensus engine configs for proof-of-work based sealing.

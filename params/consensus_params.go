@@ -251,3 +251,21 @@ func GetIPCPath() string {
 func IsTestnet() bool {
 	return os.Getenv("TESTNET") == "1"
 }
+
+// add by liangc : 18-09-13 : incompatible HomesteadSigner begin at this number
+func IsNR001Block(num *big.Int) bool {
+	if IsTestnet() {
+		if TestnetChainConfig.NR001Block == nil ||
+			TestnetChainConfig.NR001Block.Cmp(big.NewInt(0)) > 0 &&
+				TestnetChainConfig.NR001Block.Cmp(num) <= 0 {
+			return true
+		}
+	} else {
+		if MainnetChainConfig.NR001Block == nil ||
+			MainnetChainConfig.NR001Block.Cmp(big.NewInt(0)) > 0 &&
+				MainnetChainConfig.NR001Block.Cmp(num) <= 0 {
+			return true
+		}
+	}
+	return false
+}

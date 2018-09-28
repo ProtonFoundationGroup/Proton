@@ -23,8 +23,8 @@ import (
 const (
 	VersionMajor = 0       // Major version component of the current release
 	VersionMinor = 0       // Minor version component of the current release
-	VersionPatch = 1      // Patch version component of the current release
-	VersionMeta  = "unstable"
+	VersionPatch = 2      // Patch version component of the current release
+	VersionMeta  = "alpha"
 	//VersionMeta  = "release" // alpha / beta / release / stable
 )
 

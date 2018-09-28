@@ -27,6 +27,7 @@ import (
 	"github.com/ProtonFundation/Proton/common"
 	"github.com/ProtonFundation/Proton/core/types"
 	"github.com/ProtonFundation/Proton/crypto"
+	"github.com/ProtonFundation/Proton/params"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to
@@ -274,7 +275,15 @@ func (c *BoundContract) transact(opts *TransactOpts, contract *common.Address, i
 	if opts.Signer == nil {
 		return nil, errors.New("no signer to authorize the transaction with")
 	}
-	signedTx, err := opts.Signer(types.HomesteadSigner{}, opts.From, rawTx)
+
+	// modify by liangc : change signer to eip155
+	//signedTx, err := opts.Signer(types.HomesteadSigner{}, opts.From, rawTx)
+	cid := params.MainnetChainConfig.ChainId
+	if params.IsTestnet() {
+		cid = params.TestnetChainConfig.ChainId
+	}
+	signedTx, err := opts.Signer(types.NewEIP155Signer(cid), opts.From, rawTx)
+
 	if err != nil {
 		return nil, err
 	}
