@@ -286,10 +286,10 @@
 			"revisionTime": "2016-11-28T21:05:44Z"
 		},
 		{
-			"checksumSHA1": "yOMpVYuaPAtsMIo9DvQP8WZqxQs=",
+			"checksumSHA1": "CnvImYwD5jNLT4zMkOTN0ivaGA8=",
 			"path": "github.com/rjeczalik/notify",
-			"revision": "9d5aa0c3b735c3340018a4627446c3ea5a04a097",
-			"revisionTime": "2017-01-28T20:05:44Z"
+			"revision": "69d839f37b13a8cb7a78366f7633a4071cb43be7",
+			"revisionTime": "2018-09-27T01:59:48Z"
 		},
 		{
 			"checksumSHA1": "5uqO4ITTDMklKi3uNaE/D9LQ5nM=",
@@ -718,5 +718,5 @@
 			"revisionTime": "2017-08-11T01:42:03Z"
 		}
 	],
-	"rootPath": "github.com/SmartMeshFoundation/SMChain"
+	"rootPath": "github.com/ProtonFundation/Proton"
 }
