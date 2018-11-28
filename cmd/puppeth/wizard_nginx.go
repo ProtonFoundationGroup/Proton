@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/log"
 )
 
 // ensureVirtualHost checks whether a reverse-proxy is running on the specified

@@ -37,12 +37,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ProtonFundation/Proton/contracts/chequebook"
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/p2p"
-	bzzswap "github.com/ProtonFundation/Proton/swarm/services/swap"
-	"github.com/ProtonFundation/Proton/swarm/services/swap/swap"
-	"github.com/ProtonFundation/Proton/swarm/storage"
+	"github.com/ProtonFoundation/Proton/contracts/chequebook"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/p2p"
+	bzzswap "github.com/ProtonFoundation/Proton/swarm/services/swap"
+	"github.com/ProtonFoundation/Proton/swarm/services/swap/swap"
+	"github.com/ProtonFoundation/Proton/swarm/storage"
 )
 
 const (

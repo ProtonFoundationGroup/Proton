@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ProtonFundation/Proton/accounts/abi/bind"
-	"github.com/ProtonFundation/Proton/accounts/abi/bind/backends"
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/contracts/chequebook/contract"
-	"github.com/ProtonFundation/Proton/core"
-	"github.com/ProtonFundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/accounts/abi/bind"
+	"github.com/ProtonFoundation/Proton/accounts/abi/bind/backends"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/contracts/chequebook/contract"
+	"github.com/ProtonFoundation/Proton/core"
+	"github.com/ProtonFoundation/Proton/crypto"
 )
 
 var (

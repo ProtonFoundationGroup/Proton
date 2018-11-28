@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/consensus/ethash"
-	"github.com/ProtonFundation/Proton/core"
-	"github.com/ProtonFundation/Proton/eth"
-	"github.com/ProtonFundation/Proton/internal/jsre"
-	"github.com/ProtonFundation/Proton/node"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/consensus/ethash"
+	"github.com/ProtonFoundation/Proton/core"
+	"github.com/ProtonFoundation/Proton/eth"
+	"github.com/ProtonFoundation/Proton/internal/jsre"
+	"github.com/ProtonFoundation/Proton/node"
 )
 
 const (

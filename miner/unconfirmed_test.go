@@ -19,8 +19,8 @@ package miner
 import (
 	"testing"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/core/types"
 )
 
 // noopHeaderRetriever is an implementation of headerRetriever that always

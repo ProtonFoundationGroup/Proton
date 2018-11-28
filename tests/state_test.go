@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/core/vm"
+	"github.com/ProtonFoundation/Proton/core/vm"
 )
 
 func TestState(t *testing.T) {

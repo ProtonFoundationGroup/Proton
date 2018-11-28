@@ -22,12 +22,12 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/p2p/discover"
-	"github.com/ProtonFundation/Proton/p2p/netutil"
-	"github.com/ProtonFundation/Proton/swarm/network/kademlia"
-	"github.com/ProtonFundation/Proton/swarm/storage"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/p2p/discover"
+	"github.com/ProtonFoundation/Proton/p2p/netutil"
+	"github.com/ProtonFoundation/Proton/swarm/network/kademlia"
+	"github.com/ProtonFoundation/Proton/swarm/storage"
 )
 
 // Hive is the logistic manager of the swarm

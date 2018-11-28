@@ -28,8 +28,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/swarm/api"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/swarm/api"
 )
 
 //templateMap holds a mapping of an HTTP error code to a template

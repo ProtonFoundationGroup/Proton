@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ProtonFundation/Proton/params"
+	"github.com/ProtonFoundation/Proton/params"
 )
 
 type (

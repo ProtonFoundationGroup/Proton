@@ -20,7 +20,7 @@ import (
 	"crypto/sha256"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/crypto"
 	"golang.org/x/crypto/pbkdf2"
 )
 

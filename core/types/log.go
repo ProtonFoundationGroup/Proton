@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/common/hexutil"
-	"github.com/ProtonFundation/Proton/rlp"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common/hexutil"
+	"github.com/ProtonFoundation/Proton/rlp"
 )
 
 //go:generate gencodec -type Log -field-override logMarshaling -out gen_log_json.go

@@ -23,7 +23,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ProtonFundation/Proton/common/hexutil"
+	"github.com/ProtonFoundation/Proton/common/hexutil"
 	"gopkg.in/fatih/set.v0"
 )
 

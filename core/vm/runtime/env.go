@@ -19,9 +19,9 @@ package runtime
 import (
 	"math/big"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/core"
-	"github.com/ProtonFundation/Proton/core/vm"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/core"
+	"github.com/ProtonFoundation/Proton/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

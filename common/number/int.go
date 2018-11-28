@@ -19,7 +19,7 @@ package number
 import (
 	"math/big"
 
-	"github.com/ProtonFundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common"
 )
 
 var tt256 = new(big.Int).Lsh(big.NewInt(1), 256)

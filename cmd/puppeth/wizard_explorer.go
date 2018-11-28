@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

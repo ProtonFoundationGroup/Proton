@@ -20,17 +20,17 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/log"
 )
 
 /*
 http roundtripper to register for bzz url scheme
-see https://github.com/ProtonFundation/Proton/issues/2040
+see https://github.com/ProtonFoundation/Proton/issues/2040
 Usage:
 
 import (
- "github.com/ProtonFundation/Proton/common/httpclient"
- "github.com/ProtonFundation/Proton/swarm/api/http"
+ "github.com/ProtonFoundation/Proton/common/httpclient"
+ "github.com/ProtonFoundation/Proton/swarm/api/http"
 )
 client := httpclient.New()
 // for (private) swarm proxy running locally

@@ -23,7 +23,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

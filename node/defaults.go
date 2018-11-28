@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/ProtonFundation/Proton/p2p"
-	"github.com/ProtonFundation/Proton/p2p/nat"
+	"github.com/ProtonFoundation/Proton/p2p"
+	"github.com/ProtonFoundation/Proton/p2p/nat"
 )
 
 const (

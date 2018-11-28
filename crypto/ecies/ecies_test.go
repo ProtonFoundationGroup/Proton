@@ -40,7 +40,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/crypto"
 )
 
 var dumpEnc bool

@@ -22,9 +22,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/swarm/api"
-	httpapi "github.com/ProtonFundation/Proton/swarm/api/http"
-	"github.com/ProtonFundation/Proton/swarm/storage"
+	"github.com/ProtonFoundation/Proton/swarm/api"
+	httpapi "github.com/ProtonFoundation/Proton/swarm/api/http"
+	"github.com/ProtonFoundation/Proton/swarm/storage"
 )
 
 func NewTestSwarmServer(t *testing.T) *TestSwarmServer {

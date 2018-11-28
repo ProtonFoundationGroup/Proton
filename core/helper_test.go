@@ -20,9 +20,9 @@ import (
 	"container/list"
 	"fmt"
 
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/ethdb"
-	"github.com/ProtonFundation/Proton/event"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/ethdb"
+	"github.com/ProtonFoundation/Proton/event"
 )
 
 // Implement our EthTest Manager

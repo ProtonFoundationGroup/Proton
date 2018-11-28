@@ -22,10 +22,10 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/internal/ethapi"
-	"github.com/ProtonFundation/Proton/params"
-	"github.com/ProtonFundation/Proton/rpc"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/internal/ethapi"
+	"github.com/ProtonFoundation/Proton/params"
+	"github.com/ProtonFoundation/Proton/rpc"
 )
 
 var maxPrice = big.NewInt(500 * params.Shannon)

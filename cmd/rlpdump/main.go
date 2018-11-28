@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ProtonFundation/Proton/rlp"
+	"github.com/ProtonFoundation/Proton/rlp"
 )
 
 var (

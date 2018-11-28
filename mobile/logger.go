@@ -19,7 +19,7 @@ package geth
 import (
 	"os"
 
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/log"
 )
 
 // SetVerbosity sets the global verbosity level (between 0 and 6 - see logger/verbosity.go).

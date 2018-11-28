@@ -20,7 +20,7 @@ import (
 	"html/template"
 	"path"
 
-	"github.com/ProtonFundation/Proton/swarm/api"
+	"github.com/ProtonFoundation/Proton/swarm/api"
 )
 
 type htmlListData struct {

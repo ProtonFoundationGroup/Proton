@@ -21,9 +21,9 @@ import (
 	"hash"
 	"sync"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/crypto/sha3"
-	"github.com/ProtonFundation/Proton/rlp"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/crypto/sha3"
+	"github.com/ProtonFoundation/Proton/rlp"
 )
 
 // calculator is a utility used by the hasher to calculate the hash value of the tree node.

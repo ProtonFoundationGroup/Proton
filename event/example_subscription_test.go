@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/ProtonFundation/Proton/event"
+	"github.com/ProtonFoundation/Proton/event"
 )
 
 func ExampleNewSubscription() {

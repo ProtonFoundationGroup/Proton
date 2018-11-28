@@ -35,9 +35,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/crypto/sha3"
-	"github.com/ProtonFundation/Proton/rlp"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/crypto/sha3"
+	"github.com/ProtonFoundation/Proton/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

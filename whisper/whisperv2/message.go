@@ -26,10 +26,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/crypto/ecies"
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/crypto/ecies"
+	"github.com/ProtonFoundation/Proton/log"
 )
 
 // Message represents an end-user data packet to transmit through the Whisper

@@ -26,10 +26,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ProtonFundation/Proton/cmd/internal/browser"
-	"github.com/ProtonFundation/Proton/params"
+	"github.com/ProtonFoundation/Proton/cmd/internal/browser"
+	"github.com/ProtonFoundation/Proton/params"
 
-	"github.com/ProtonFundation/Proton/cmd/utils"
+	"github.com/ProtonFoundation/Proton/cmd/utils"
 	cli "gopkg.in/urfave/cli.v1"
 )
 
@@ -41,7 +41,7 @@ var bugCommand = cli.Command{
 	Category:  "MISCELLANEOUS COMMANDS",
 }
 
-const issueUrl = "https://github.com/ProtonFundation/Proton/issues/new"
+const issueUrl = "https://github.com/ProtonFoundation/Proton/issues/new"
 
 // reportBug reports a bug by opening a new URL to the go-ethereum GH issue
 // tracker and setting default values as the issue body.

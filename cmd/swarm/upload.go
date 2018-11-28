@@ -30,8 +30,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ProtonFundation/Proton/cmd/utils"
-	swarm "github.com/ProtonFundation/Proton/swarm/api/client"
+	"github.com/ProtonFoundation/Proton/cmd/utils"
+	swarm "github.com/ProtonFoundation/Proton/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

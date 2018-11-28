@@ -27,13 +27,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ProtonFundation/Proton"
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/ethdb"
-	"github.com/ProtonFundation/Proton/event"
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/params"
+	"github.com/ProtonFoundation/Proton"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/ethdb"
+	"github.com/ProtonFoundation/Proton/event"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/params"
 	"github.com/rcrowley/go-metrics"
 )
 

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ProtonFundation/Proton/params"
+	"github.com/ProtonFoundation/Proton/params"
 )
 
 // This table defines supported forks and their chain config.

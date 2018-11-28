@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ProtonFundation/Proton/accounts/abi/bind"
-	"github.com/ProtonFundation/Proton/accounts/abi/bind/backends"
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/core"
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/accounts/abi/bind"
+	"github.com/ProtonFoundation/Proton/accounts/abi/bind/backends"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/core"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

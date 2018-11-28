@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/p2p"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

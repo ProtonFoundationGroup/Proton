@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/eth/downloader"
-	"github.com/ProtonFundation/Proton/p2p"
-	"github.com/ProtonFundation/Proton/rlp"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/eth/downloader"
+	"github.com/ProtonFoundation/Proton/p2p"
+	"github.com/ProtonFoundation/Proton/rlp"
 )
 
 func init() {

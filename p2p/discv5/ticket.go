@@ -25,10 +25,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/common/mclock"
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common/mclock"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/log"
 )
 
 const (

@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/ProtonFundation/Proton/core"
-	"github.com/ProtonFundation/Proton/eth/downloader"
-	"github.com/ProtonFundation/Proton/light"
+	"github.com/ProtonFoundation/Proton/core"
+	"github.com/ProtonFoundation/Proton/eth/downloader"
+	"github.com/ProtonFoundation/Proton/light"
 )
 
 const (

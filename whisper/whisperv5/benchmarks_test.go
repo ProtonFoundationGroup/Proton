@@ -19,7 +19,7 @@ package whisperv5
 import (
 	"testing"
 
-	"github.com/ProtonFundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/crypto"
 )
 
 func BenchmarkDeriveKeyMaterial(b *testing.B) {

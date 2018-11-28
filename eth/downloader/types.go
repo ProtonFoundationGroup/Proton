@@ -19,7 +19,7 @@ package downloader
 import (
 	"fmt"
 
-	"github.com/ProtonFundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/core/types"
 )
 
 // peerDropFn is a callback type for dropping a peer detected as malicious.

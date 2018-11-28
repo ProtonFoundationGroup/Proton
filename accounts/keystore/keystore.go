@@ -33,11 +33,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ProtonFundation/Proton/accounts"
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/event"
+	"github.com/ProtonFoundation/Proton/accounts"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/event"
 )
 
 var (

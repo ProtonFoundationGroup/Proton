@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/ProtonFundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

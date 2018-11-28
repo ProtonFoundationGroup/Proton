@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ProtonFundation/Proton/consensus/ethash"
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/core/vm"
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/ethdb"
-	"github.com/ProtonFundation/Proton/params"
+	"github.com/ProtonFoundation/Proton/consensus/ethash"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/core/vm"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/ethdb"
+	"github.com/ProtonFoundation/Proton/params"
 )
 
 func ExampleGenerateChain() {

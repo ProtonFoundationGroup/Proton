@@ -25,7 +25,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/ethdb"
+	"github.com/ProtonFoundation/Proton/ethdb"
 )
 
 func newTestLDB() (*ethdb.LDBDatabase, func()) {

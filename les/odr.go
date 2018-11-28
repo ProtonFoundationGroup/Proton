@@ -19,10 +19,10 @@ package les
 import (
 	"context"
 
-	"github.com/ProtonFundation/Proton/core"
-	"github.com/ProtonFundation/Proton/ethdb"
-	"github.com/ProtonFundation/Proton/light"
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/core"
+	"github.com/ProtonFoundation/Proton/ethdb"
+	"github.com/ProtonFoundation/Proton/light"
+	"github.com/ProtonFoundation/Proton/log"
 )
 
 // LesOdr implements light.OdrBackend

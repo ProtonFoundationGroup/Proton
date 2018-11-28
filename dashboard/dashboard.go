@@ -31,9 +31,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/p2p"
-	"github.com/ProtonFundation/Proton/rpc"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/p2p"
+	"github.com/ProtonFoundation/Proton/rpc"
 	"github.com/rcrowley/go-metrics"
 	"golang.org/x/net/websocket"
 )

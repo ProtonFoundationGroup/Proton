@@ -29,11 +29,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ProtonFundation/Proton/event"
-	"github.com/ProtonFundation/Proton/p2p"
-	"github.com/ProtonFundation/Proton/p2p/discover"
-	"github.com/ProtonFundation/Proton/p2p/simulations/adapters"
-	"github.com/ProtonFundation/Proton/rpc"
+	"github.com/ProtonFoundation/Proton/event"
+	"github.com/ProtonFoundation/Proton/p2p"
+	"github.com/ProtonFoundation/Proton/p2p/discover"
+	"github.com/ProtonFoundation/Proton/p2p/simulations/adapters"
+	"github.com/ProtonFoundation/Proton/rpc"
 	"github.com/julienschmidt/httprouter"
 	"golang.org/x/net/websocket"
 )

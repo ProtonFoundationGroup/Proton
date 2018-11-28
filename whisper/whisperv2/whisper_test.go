@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ProtonFundation/Proton/p2p"
-	"github.com/ProtonFundation/Proton/p2p/discover"
+	"github.com/ProtonFoundation/Proton/p2p"
+	"github.com/ProtonFoundation/Proton/p2p/discover"
 )
 
 func startTestCluster(n int) []*Whisper {

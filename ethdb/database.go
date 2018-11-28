@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/metrics"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/metrics"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/filter"

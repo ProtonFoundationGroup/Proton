@@ -29,8 +29,8 @@ import (
 
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ProtonFundation/Proton/accounts"
-	"github.com/ProtonFundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/accounts"
+	"github.com/ProtonFoundation/Proton/common"
 )
 
 var (

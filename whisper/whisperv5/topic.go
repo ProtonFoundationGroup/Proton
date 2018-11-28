@@ -19,8 +19,8 @@
 package whisperv5
 
 import (
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/common/hexutil"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common/hexutil"
 )
 
 // Topic represents a cryptographically secure, probabilistic partial

@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/swarm/testutil"
+	"github.com/ProtonFoundation/Proton/swarm/testutil"
 )
 
 func TestError(t *testing.T) {

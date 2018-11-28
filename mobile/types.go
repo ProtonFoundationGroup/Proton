@@ -23,9 +23,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/rlp"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/rlp"
 )
 
 // A Nonce is a 64-bit hash which proves (combined with the mix-hash) that

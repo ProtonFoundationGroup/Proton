@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/core/types"
 )
 
 // TxPreEvent is posted when a transaction enters the transaction pool.

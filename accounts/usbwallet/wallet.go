@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	ethereum "github.com/ProtonFundation/Proton"
-	"github.com/ProtonFundation/Proton/accounts"
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/log"
+	ethereum "github.com/ProtonFoundation/Proton"
+	"github.com/ProtonFoundation/Proton/accounts"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/log"
 	"github.com/karalabe/hid"
 )
 

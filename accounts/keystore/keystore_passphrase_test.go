@@ -20,7 +20,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common"
 )
 
 const (

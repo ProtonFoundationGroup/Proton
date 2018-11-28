@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/ProtonFundation/Proton/crypto"
+	ethcrypto "github.com/ProtonFoundation/Proton/crypto"
 )
 
 var (

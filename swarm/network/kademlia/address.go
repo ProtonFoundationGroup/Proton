@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"strings"
 
-	"github.com/ProtonFundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common"
 )
 
 type Address common.Hash

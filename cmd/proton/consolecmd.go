@@ -23,10 +23,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ProtonFundation/Proton/cmd/utils"
-	"github.com/ProtonFundation/Proton/console"
-	"github.com/ProtonFundation/Proton/node"
-	"github.com/ProtonFundation/Proton/rpc"
+	"github.com/ProtonFoundation/Proton/cmd/utils"
+	"github.com/ProtonFoundation/Proton/console"
+	"github.com/ProtonFoundation/Proton/node"
+	"github.com/ProtonFoundation/Proton/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 
@@ -42,7 +42,7 @@ var (
 		Description: `
 The Geth console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/ProtonFundation/Proton/wiki/Javascipt-Console.`,
+See https://github.com/ProtonFoundation/Proton/wiki/Javascipt-Console.`,
 	}
 
 	attachCommand = cli.Command{
@@ -55,7 +55,7 @@ See https://github.com/ProtonFundation/Proton/wiki/Javascipt-Console.`,
 		Description: `
 The Geth console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/ProtonFundation/Proton/wiki/Javascipt-Console.
+See https://github.com/ProtonFoundation/Proton/wiki/Javascipt-Console.
 This command allows to open a console on a running geth node.`,
 	}
 
@@ -68,7 +68,7 @@ This command allows to open a console on a running geth node.`,
 		Category:  "CONSOLE COMMANDS",
 		Description: `
 The JavaScript VM exposes a node admin interface as well as the Ðapp
-JavaScript API. See https://github.com/ProtonFundation/Proton/wiki/Javascipt-Console`,
+JavaScript API. See https://github.com/ProtonFoundation/Proton/wiki/Javascipt-Console`,
 	}
 )
 

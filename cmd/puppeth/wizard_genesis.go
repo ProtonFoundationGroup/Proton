@@ -25,10 +25,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/core"
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/params"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/core"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/params"
 )
 
 // makeGenesis creates a new genesis struct based on some user input.

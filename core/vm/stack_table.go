@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/ProtonFundation/Proton/params"
+	"github.com/ProtonFoundation/Proton/params"
 )
 
 func makeStackFunc(pop, push int) stackValidationFunc {

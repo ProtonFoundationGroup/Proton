@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common"
 )
 
 func initDbStore(t *testing.T) *DbStore {

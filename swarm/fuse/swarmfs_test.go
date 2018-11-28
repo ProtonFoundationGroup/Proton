@@ -27,8 +27,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/swarm/api"
-	"github.com/ProtonFundation/Proton/swarm/storage"
+	"github.com/ProtonFoundation/Proton/swarm/api"
+	"github.com/ProtonFoundation/Proton/swarm/storage"
 )
 
 type fileInfo struct {

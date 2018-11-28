@@ -5,7 +5,7 @@ package whisperv5
 import (
 	"encoding/json"
 
-	"github.com/ProtonFundation/Proton/common/hexutil"
+	"github.com/ProtonFoundation/Proton/common/hexutil"
 )
 
 var _ = (*newMessageOverride)(nil)

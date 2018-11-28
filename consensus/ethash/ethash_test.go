@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/core/types"
 )
 
 // Tests that ethash works correctly in test mode.

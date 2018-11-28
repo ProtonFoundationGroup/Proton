@@ -4,7 +4,7 @@ import (
 	"testing"
 	"sort"
 	"math/big"
-	"github.com/ProtonFundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common"
 )
 
 var data = ChiefInfoList{

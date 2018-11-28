@@ -21,12 +21,12 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/ProtonFundation/Proton/cmd/utils"
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/rlp"
-	whisper "github.com/ProtonFundation/Proton/whisper/whisperv5"
+	"github.com/ProtonFoundation/Proton/cmd/utils"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/rlp"
+	whisper "github.com/ProtonFoundation/Proton/whisper/whisperv5"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/util"
 )

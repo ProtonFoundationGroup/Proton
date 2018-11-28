@@ -17,10 +17,10 @@
 package clique
 
 import (
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/consensus"
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/rpc"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/consensus"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/rpc"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

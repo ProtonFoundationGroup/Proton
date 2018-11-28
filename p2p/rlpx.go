@@ -35,12 +35,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/crypto/ecies"
-	"github.com/ProtonFundation/Proton/crypto/secp256k1"
-	"github.com/ProtonFundation/Proton/crypto/sha3"
-	"github.com/ProtonFundation/Proton/p2p/discover"
-	"github.com/ProtonFundation/Proton/rlp"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/crypto/ecies"
+	"github.com/ProtonFoundation/Proton/crypto/secp256k1"
+	"github.com/ProtonFoundation/Proton/crypto/sha3"
+	"github.com/ProtonFoundation/Proton/p2p/discover"
+	"github.com/ProtonFoundation/Proton/rlp"
 	"github.com/golang/snappy"
 )
 

@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ProtonFundation/Proton/cmd/utils"
-	"github.com/ProtonFundation/Proton/consensus/ethash"
-	"github.com/ProtonFundation/Proton/eth"
-	"github.com/ProtonFundation/Proton/params"
+	"github.com/ProtonFoundation/Proton/cmd/utils"
+	"github.com/ProtonFoundation/Proton/consensus/ethash"
+	"github.com/ProtonFoundation/Proton/eth"
+	"github.com/ProtonFoundation/Proton/params"
 	"gopkg.in/urfave/cli.v1"
 )
 
@@ -120,7 +120,7 @@ func version(ctx *cli.Context) error {
 	fmt.Printf("GOPATH=%s\n", os.Getenv("GOPATH"))
 	fmt.Printf("GOROOT=%s\n", runtime.GOROOT())
 	fmt.Println("Based On:", "go-ethereum")
-	fmt.Println("Email:", "ProtonFundation@163.com")
+	fmt.Println("Email:", "ProtonFoundation@163.com")
 	return nil
 }
 

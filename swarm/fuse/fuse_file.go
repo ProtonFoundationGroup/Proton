@@ -26,8 +26,8 @@ import (
 
 	"bazil.org/fuse"
 	"bazil.org/fuse/fs"
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/swarm/storage"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/swarm/storage"
 	"golang.org/x/net/context"
 )
 

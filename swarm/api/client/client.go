@@ -33,7 +33,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ProtonFundation/Proton/swarm/api"
+	"github.com/ProtonFoundation/Proton/swarm/api"
 )
 
 var (

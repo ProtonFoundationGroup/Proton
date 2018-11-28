@@ -29,7 +29,7 @@ import (
 	"net"
 	"sort"
 
-	"github.com/ProtonFundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common"
 )
 
 const (

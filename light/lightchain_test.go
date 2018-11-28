@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/consensus/ethash"
-	"github.com/ProtonFundation/Proton/core"
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/ethdb"
-	"github.com/ProtonFundation/Proton/params"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/consensus/ethash"
+	"github.com/ProtonFoundation/Proton/core"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/ethdb"
+	"github.com/ProtonFoundation/Proton/params"
 )
 
 // So we can deterministically seed different blockchains

@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ProtonFundation/Proton/common/hexutil"
+	"github.com/ProtonFoundation/Proton/common/hexutil"
 )
 
 type MyType [5]byte

@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

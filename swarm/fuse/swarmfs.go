@@ -17,7 +17,7 @@
 package fuse
 
 import (
-	"github.com/ProtonFundation/Proton/swarm/api"
+	"github.com/ProtonFoundation/Proton/swarm/api"
 	"sync"
 	"time"
 )

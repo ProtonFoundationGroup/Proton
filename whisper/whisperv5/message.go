@@ -27,10 +27,10 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/crypto/ecies"
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/crypto/ecies"
+	"github.com/ProtonFoundation/Proton/log"
 )
 
 // Options specifies the exact way a message should be wrapped into an Envelope.

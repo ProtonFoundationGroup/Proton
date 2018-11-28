@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ProtonFundation/Proton/accounts/keystore"
-	"github.com/ProtonFundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/accounts/keystore"
+	"github.com/ProtonFoundation/Proton/core/types"
 )
 
 // Tests that the account management snippets work correctly.

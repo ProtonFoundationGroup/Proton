@@ -22,9 +22,9 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/ProtonFundation/Proton/cmd/utils"
-	"github.com/ProtonFundation/Proton/console"
-	"github.com/ProtonFundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/cmd/utils"
+	"github.com/ProtonFoundation/Proton/console"
+	"github.com/ProtonFoundation/Proton/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

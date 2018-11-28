@@ -27,14 +27,14 @@ import (
 
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/ProtonFundation/Proton/cmd/utils"
-	"github.com/ProtonFundation/Proton/dashboard"
-	"github.com/ProtonFundation/Proton/eth"
-	"github.com/ProtonFundation/Proton/node"
-	"github.com/ProtonFundation/Proton/params"
-	whisper "github.com/ProtonFundation/Proton/whisper/whisperv5"
+	"github.com/ProtonFoundation/Proton/cmd/utils"
+	"github.com/ProtonFoundation/Proton/dashboard"
+	"github.com/ProtonFoundation/Proton/eth"
+	"github.com/ProtonFoundation/Proton/node"
+	"github.com/ProtonFoundation/Proton/params"
+	whisper "github.com/ProtonFoundation/Proton/whisper/whisperv5"
 	"github.com/naoina/toml"
-	"github.com/ProtonFundation/Proton/contracts/chief"
+	"github.com/ProtonFoundation/Proton/contracts/chief"
 )
 
 var (

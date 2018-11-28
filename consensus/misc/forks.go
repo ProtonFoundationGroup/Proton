@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/params"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

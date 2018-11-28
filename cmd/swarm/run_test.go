@@ -27,13 +27,13 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ProtonFundation/Proton/accounts"
-	"github.com/ProtonFundation/Proton/accounts/keystore"
-	"github.com/ProtonFundation/Proton/internal/cmdtest"
-	"github.com/ProtonFundation/Proton/node"
-	"github.com/ProtonFundation/Proton/p2p"
-	"github.com/ProtonFundation/Proton/rpc"
-	"github.com/ProtonFundation/Proton/swarm"
+	"github.com/ProtonFoundation/Proton/accounts"
+	"github.com/ProtonFoundation/Proton/accounts/keystore"
+	"github.com/ProtonFoundation/Proton/internal/cmdtest"
+	"github.com/ProtonFoundation/Proton/node"
+	"github.com/ProtonFoundation/Proton/p2p"
+	"github.com/ProtonFoundation/Proton/rpc"
+	"github.com/ProtonFoundation/Proton/swarm"
 )
 
 func init() {

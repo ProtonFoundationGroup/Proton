@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ProtonFundation/Proton/params"
+	"github.com/ProtonFoundation/Proton/params"
 )
 
 const (

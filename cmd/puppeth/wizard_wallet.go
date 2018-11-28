@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/log"
 )
 
 // deployWallet creates a new web wallet based on some user input.

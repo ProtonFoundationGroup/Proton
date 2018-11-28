@@ -27,7 +27,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/ProtonFundation/Proton/common/math"
+	"github.com/ProtonFoundation/Proton/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

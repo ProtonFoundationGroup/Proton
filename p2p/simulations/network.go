@@ -24,11 +24,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ProtonFundation/Proton/event"
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/p2p"
-	"github.com/ProtonFundation/Proton/p2p/discover"
-	"github.com/ProtonFundation/Proton/p2p/simulations/adapters"
+	"github.com/ProtonFoundation/Proton/event"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/p2p"
+	"github.com/ProtonFoundation/Proton/p2p/discover"
+	"github.com/ProtonFoundation/Proton/p2p/simulations/adapters"
 )
 
 var dialBanTimeout = 200 * time.Millisecond

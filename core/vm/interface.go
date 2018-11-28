@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/core/types"
 )
 
 // StateDB is an EVM database for full state querying.

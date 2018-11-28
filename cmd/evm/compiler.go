@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/ProtonFundation/Proton/cmd/evm/internal/compiler"
+	"github.com/ProtonFoundation/Proton/cmd/evm/internal/compiler"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

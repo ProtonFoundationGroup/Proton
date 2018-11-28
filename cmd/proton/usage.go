@@ -22,8 +22,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/ProtonFundation/Proton/cmd/utils"
-	"github.com/ProtonFundation/Proton/internal/debug"
+	"github.com/ProtonFoundation/Proton/cmd/utils"
+	"github.com/ProtonFoundation/Proton/internal/debug"
 	"gopkg.in/urfave/cli.v1"
 	"strings"
 )

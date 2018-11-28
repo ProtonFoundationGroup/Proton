@@ -24,12 +24,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ProtonFundation/Proton"
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/common/hexutil"
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/rlp"
-	"github.com/ProtonFundation/Proton/rpc"
+	"github.com/ProtonFoundation/Proton"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common/hexutil"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/rlp"
+	"github.com/ProtonFoundation/Proton/rpc"
 )
 
 // Client defines typed wrappers for the Ethereum RPC API.

@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/ProtonFundation/Proton/core/vm"
+	"github.com/ProtonFoundation/Proton/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

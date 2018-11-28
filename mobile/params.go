@@ -21,9 +21,9 @@ package geth
 import (
 	"encoding/json"
 
-	"github.com/ProtonFundation/Proton/core"
-	"github.com/ProtonFundation/Proton/p2p/discv5"
-	"github.com/ProtonFundation/Proton/params"
+	"github.com/ProtonFoundation/Proton/core"
+	"github.com/ProtonFoundation/Proton/p2p/discv5"
+	"github.com/ProtonFoundation/Proton/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Ethereum network. It

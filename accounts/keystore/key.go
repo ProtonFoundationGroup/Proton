@@ -29,9 +29,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ProtonFundation/Proton/accounts"
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/accounts"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/crypto"
 	"github.com/pborman/uuid"
 )
 

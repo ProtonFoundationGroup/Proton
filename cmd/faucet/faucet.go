@@ -40,23 +40,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ProtonFundation/Proton/accounts"
-	"github.com/ProtonFundation/Proton/accounts/keystore"
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/core"
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/eth"
-	"github.com/ProtonFundation/Proton/eth/downloader"
-	"github.com/ProtonFundation/Proton/ethclient"
-	"github.com/ProtonFundation/Proton/ethstats"
-	"github.com/ProtonFundation/Proton/les"
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/node"
-	"github.com/ProtonFundation/Proton/p2p"
-	"github.com/ProtonFundation/Proton/p2p/discover"
-	"github.com/ProtonFundation/Proton/p2p/discv5"
-	"github.com/ProtonFundation/Proton/p2p/nat"
-	"github.com/ProtonFundation/Proton/params"
+	"github.com/ProtonFoundation/Proton/accounts"
+	"github.com/ProtonFoundation/Proton/accounts/keystore"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/core"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/eth"
+	"github.com/ProtonFoundation/Proton/eth/downloader"
+	"github.com/ProtonFoundation/Proton/ethclient"
+	"github.com/ProtonFoundation/Proton/ethstats"
+	"github.com/ProtonFoundation/Proton/les"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/node"
+	"github.com/ProtonFoundation/Proton/p2p"
+	"github.com/ProtonFoundation/Proton/p2p/discover"
+	"github.com/ProtonFoundation/Proton/p2p/discv5"
+	"github.com/ProtonFoundation/Proton/p2p/nat"
+	"github.com/ProtonFoundation/Proton/params"
 	"golang.org/x/net/websocket"
 )
 
@@ -450,7 +450,7 @@ func (f *faucet) apiHandler(conn *websocket.Conn) {
 		case *noauthFlag:
 			username, avatar, address, err = authNoAuth(msg.URL)
 		default:
-			err = errors.New("Something funky happened, please open an issue at https://github.com/ProtonFundation/Proton/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/ProtonFoundation/Proton/issues")
 		}
 		if err != nil {
 			if err = sendError(conn, err); err != nil {

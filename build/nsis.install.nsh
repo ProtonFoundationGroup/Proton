@@ -3,9 +3,9 @@ InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
 # Links for "Add/Remove Programs"
-!define HELPURL "https://github.com/ProtonFundation/Proton/issues"
-!define UPDATEURL "https://github.com/ProtonFundation/Proton/releases"
-!define ABOUTURL "https://github.com/ProtonFundation/Proton#ethereum-go"
+!define HELPURL "https://github.com/ProtonFoundation/Proton/issues"
+!define UPDATEURL "https://github.com/ProtonFoundation/Proton/releases"
+!define ABOUTURL "https://github.com/ProtonFoundation/Proton#ethereum-go"
 !define /date NOW "%Y%m%d"
 
 PageEx license

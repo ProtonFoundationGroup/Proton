@@ -20,11 +20,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/common/math"
-	"github.com/ProtonFundation/Proton/core/vm"
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/params"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common/math"
+	"github.com/ProtonFoundation/Proton/core/vm"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/params"
 )
 
 var (

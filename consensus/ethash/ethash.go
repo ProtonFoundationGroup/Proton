@@ -32,9 +32,9 @@ import (
 	"unsafe"
 
 	mmap "github.com/edsrzf/mmap-go"
-	"github.com/ProtonFundation/Proton/consensus"
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/rpc"
+	"github.com/ProtonFoundation/Proton/consensus"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/rpc"
 	metrics "github.com/rcrowley/go-metrics"
 )
 

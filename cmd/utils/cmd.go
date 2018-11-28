@@ -26,12 +26,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ProtonFundation/Proton/core"
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/internal/debug"
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/node"
-	"github.com/ProtonFundation/Proton/rlp"
+	"github.com/ProtonFoundation/Proton/core"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/internal/debug"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/node"
+	"github.com/ProtonFoundation/Proton/rlp"
 )
 
 const (

@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ProtonFundation/Proton/core"
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/core"
+	"github.com/ProtonFoundation/Proton/log"
 	"github.com/olekukonko/tablewriter"
 )
 

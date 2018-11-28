@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ProtonFundation/Proton/rpc"
+	"github.com/ProtonFoundation/Proton/rpc"
 )
 
 // In this example, our client whishes to track the latest 'block number'

@@ -19,8 +19,8 @@ package les
 import (
 	"sync"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/core/types"
 )
 
 type ltrInfo struct {

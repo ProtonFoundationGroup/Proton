@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ProtonFundation/Proton/event"
+	"github.com/ProtonFoundation/Proton/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

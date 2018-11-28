@@ -23,10 +23,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/ProtonFundation/Proton/core/state"
-	"github.com/ProtonFundation/Proton/core/vm"
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/tests"
+	"github.com/ProtonFoundation/Proton/core/state"
+	"github.com/ProtonFoundation/Proton/core/vm"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/tests"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

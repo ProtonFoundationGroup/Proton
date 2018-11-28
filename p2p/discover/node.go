@@ -30,9 +30,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/crypto/secp256k1"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/crypto/secp256k1"
 )
 
 const NodeIDBits = 512

@@ -26,14 +26,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ProtonFundation/Proton/accounts/abi/bind"
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/contracts/chequebook"
-	"github.com/ProtonFundation/Proton/contracts/chequebook/contract"
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/swarm/services/swap/swap"
+	"github.com/ProtonFoundation/Proton/accounts/abi/bind"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/contracts/chequebook"
+	"github.com/ProtonFoundation/Proton/contracts/chequebook/contract"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/swarm/services/swap/swap"
 )
 
 // SwAP       Swarm Accounting Protocol with

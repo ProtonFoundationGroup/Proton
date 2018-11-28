@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	ethereum "github.com/ProtonFundation/Proton"
-	"github.com/ProtonFundation/Proton/event"
-	"github.com/ProtonFundation/Proton/rpc"
+	ethereum "github.com/ProtonFoundation/Proton"
+	"github.com/ProtonFoundation/Proton/event"
+	"github.com/ProtonFoundation/Proton/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

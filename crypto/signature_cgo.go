@@ -23,8 +23,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"github.com/ProtonFundation/Proton/common/math"
-	"github.com/ProtonFundation/Proton/crypto/secp256k1"
+	"github.com/ProtonFoundation/Proton/common/math"
+	"github.com/ProtonFoundation/Proton/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

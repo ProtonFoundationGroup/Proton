@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	ethereum "github.com/ProtonFundation/Proton"
-	"github.com/ProtonFundation/Proton/common"
+	ethereum "github.com/ProtonFoundation/Proton"
+	"github.com/ProtonFoundation/Proton/common"
 )
 
 // Subscription represents an event subscription where events are

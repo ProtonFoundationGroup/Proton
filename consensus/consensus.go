@@ -18,11 +18,11 @@
 package consensus
 
 import (
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/core/state"
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/params"
-	"github.com/ProtonFundation/Proton/rpc"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/core/state"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/params"
+	"github.com/ProtonFoundation/Proton/rpc"
 	"math/big"
 )
 

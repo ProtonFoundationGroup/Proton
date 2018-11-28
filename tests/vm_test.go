@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/ProtonFundation/Proton/core/vm"
+	"github.com/ProtonFoundation/Proton/core/vm"
 )
 
 func TestVM(t *testing.T) {

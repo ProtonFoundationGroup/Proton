@@ -7,9 +7,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/common/hexutil"
-	"github.com/ProtonFundation/Proton/common/math"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common/hexutil"
+	"github.com/ProtonFoundation/Proton/common/math"
 )
 
 var _ = (*vmExecMarshaling)(nil)

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ProtonFundation/Proton/cmd/utils"
+	"github.com/ProtonFoundation/Proton/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

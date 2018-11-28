@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/ProtonFundation/Proton/metrics"
-	"github.com/ProtonFundation/Proton/p2p"
+	"github.com/ProtonFoundation/Proton/metrics"
+	"github.com/ProtonFoundation/Proton/p2p"
 )
 
 var (

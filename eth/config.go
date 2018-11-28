@@ -23,13 +23,13 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/common/hexutil"
-	"github.com/ProtonFundation/Proton/consensus/ethash"
-	"github.com/ProtonFundation/Proton/core"
-	"github.com/ProtonFundation/Proton/eth/downloader"
-	"github.com/ProtonFundation/Proton/eth/gasprice"
-	"github.com/ProtonFundation/Proton/params"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common/hexutil"
+	"github.com/ProtonFoundation/Proton/consensus/ethash"
+	"github.com/ProtonFoundation/Proton/core"
+	"github.com/ProtonFoundation/Proton/eth/downloader"
+	"github.com/ProtonFoundation/Proton/eth/gasprice"
+	"github.com/ProtonFoundation/Proton/params"
 )
 
 // DefaultConfig contains default settings for use on the Ethereum main net.

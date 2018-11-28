@@ -17,7 +17,7 @@
 package api
 
 import (
-	"github.com/ProtonFundation/Proton/swarm/network"
+	"github.com/ProtonFoundation/Proton/swarm/network"
 )
 
 type Control struct {

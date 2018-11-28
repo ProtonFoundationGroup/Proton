@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/common/math"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common/math"
 )
 
 // calculates the memory size required for a step

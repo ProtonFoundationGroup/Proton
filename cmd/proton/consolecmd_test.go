@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ProtonFundation/Proton/params"
+	"github.com/ProtonFoundation/Proton/params"
 )
 
 const (

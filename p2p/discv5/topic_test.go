@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/common/mclock"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common/mclock"
 )
 
 func TestTopicRadius(t *testing.T) {

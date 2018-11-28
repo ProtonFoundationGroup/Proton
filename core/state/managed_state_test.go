@@ -19,8 +19,8 @@ package state
 import (
 	"testing"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/ethdb"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/ethdb"
 )
 
 var addr = common.BytesToAddress([]byte("test"))

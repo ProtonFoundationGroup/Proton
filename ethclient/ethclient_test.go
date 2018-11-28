@@ -16,7 +16,7 @@
 
 package ethclient
 
-import "github.com/ProtonFundation/Proton"
+import "github.com/ProtonFoundation/Proton"
 
 // Verify that Client implements the ethereum interfaces.
 var (

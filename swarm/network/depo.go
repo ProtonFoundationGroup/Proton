@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/swarm/storage"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/swarm/storage"
 )
 
 // Handler for storage/retrieval related protocol requests

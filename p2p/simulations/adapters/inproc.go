@@ -23,12 +23,12 @@ import (
 	"net"
 	"sync"
 
-	"github.com/ProtonFundation/Proton/event"
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/node"
-	"github.com/ProtonFundation/Proton/p2p"
-	"github.com/ProtonFundation/Proton/p2p/discover"
-	"github.com/ProtonFundation/Proton/rpc"
+	"github.com/ProtonFoundation/Proton/event"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/node"
+	"github.com/ProtonFoundation/Proton/p2p"
+	"github.com/ProtonFoundation/Proton/p2p/discover"
+	"github.com/ProtonFoundation/Proton/rpc"
 )
 
 // SimAdapter is a NodeAdapter which creates in-memory simulation nodes and

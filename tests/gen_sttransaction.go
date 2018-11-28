@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/ProtonFundation/Proton/common/hexutil"
-	"github.com/ProtonFundation/Proton/common/math"
+	"github.com/ProtonFoundation/Proton/common/hexutil"
+	"github.com/ProtonFoundation/Proton/common/math"
 )
 
 var _ = (*stTransactionMarshaling)(nil)

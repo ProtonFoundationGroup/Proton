@@ -22,8 +22,8 @@ import (
 	"io"
 	"net"
 
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/rlp"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/rlp"
 )
 
 // Entry is implemented by known node record entry types.

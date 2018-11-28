@@ -25,8 +25,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/swarm/api"
-	"github.com/ProtonFundation/Proton/swarm/testutil"
+	"github.com/ProtonFoundation/Proton/swarm/api"
+	"github.com/ProtonFoundation/Proton/swarm/testutil"
 )
 
 // TestClientUploadDownloadRaw test uploading and downloading raw data to swarm

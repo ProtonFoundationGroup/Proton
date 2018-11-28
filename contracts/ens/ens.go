@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ProtonFundation/Proton/accounts/abi/bind"
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/contracts/ens/contract"
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/accounts/abi/bind"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/contracts/ens/contract"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/crypto"
 )
 
 var (

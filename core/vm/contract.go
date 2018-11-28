@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ProtonFundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common"
 )
 
 // ContractRef is a reference to the contract's backing object

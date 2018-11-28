@@ -19,9 +19,9 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/common/math"
-	"github.com/ProtonFundation/Proton/params"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common/math"
+	"github.com/ProtonFoundation/Proton/params"
 )
 
 // memoryGasCosts calculates the quadratic gas for memory expansion. It does so

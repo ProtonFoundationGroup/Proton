@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/ProtonFundation/Proton/common"
+import "github.com/ProtonFoundation/Proton/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

@@ -24,9 +24,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ProtonFundation/Proton/cmd/utils"
-	"github.com/ProtonFundation/Proton/swarm/api"
-	swarm "github.com/ProtonFundation/Proton/swarm/api/client"
+	"github.com/ProtonFoundation/Proton/cmd/utils"
+	"github.com/ProtonFoundation/Proton/swarm/api"
+	swarm "github.com/ProtonFoundation/Proton/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

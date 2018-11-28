@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/ProtonFundation/Proton/node"
-	"github.com/ProtonFundation/Proton/p2p"
-	"github.com/ProtonFundation/Proton/rpc"
+	"github.com/ProtonFoundation/Proton/node"
+	"github.com/ProtonFoundation/Proton/p2p"
+	"github.com/ProtonFoundation/Proton/rpc"
 )
 
 // SampleService is a trivial network service that can be attached to a node for

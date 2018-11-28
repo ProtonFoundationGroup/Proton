@@ -24,8 +24,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ProtonFundation/Proton/accounts/abi/bind"
-	"github.com/ProtonFundation/Proton/common/compiler"
+	"github.com/ProtonFoundation/Proton/accounts/abi/bind"
+	"github.com/ProtonFoundation/Proton/common/compiler"
 )
 
 const VSN = "0.0.2"

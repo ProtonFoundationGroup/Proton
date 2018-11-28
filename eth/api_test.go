@@ -21,9 +21,9 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/core/state"
-	"github.com/ProtonFundation/Proton/ethdb"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/core/state"
+	"github.com/ProtonFoundation/Proton/ethdb"
 )
 
 var dumper = spew.ConfigState{Indent: "    "}

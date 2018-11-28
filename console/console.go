@@ -27,9 +27,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ProtonFundation/Proton/internal/jsre"
-	"github.com/ProtonFundation/Proton/internal/web3ext"
-	"github.com/ProtonFundation/Proton/rpc"
+	"github.com/ProtonFoundation/Proton/internal/jsre"
+	"github.com/ProtonFoundation/Proton/internal/web3ext"
+	"github.com/ProtonFoundation/Proton/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 	"github.com/robertkrimen/otto"

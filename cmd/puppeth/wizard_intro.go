@@ -26,7 +26,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/log"
 )
 
 // makeWizard creates and returns a new puppeth wizard.

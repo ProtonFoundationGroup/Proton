@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ProtonFundation/Proton/common/bitutil"
-	"github.com/ProtonFundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/common/bitutil"
+	"github.com/ProtonFoundation/Proton/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

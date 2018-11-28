@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/log"
 )
 
 // deployDashboard queries the user for various input on deploying a web-service

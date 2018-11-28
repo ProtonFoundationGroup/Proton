@@ -19,9 +19,9 @@ package core
 import (
 	"math/big"
 
-	"github.com/ProtonFundation/Proton/core/state"
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/core/vm"
+	"github.com/ProtonFoundation/Proton/core/state"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

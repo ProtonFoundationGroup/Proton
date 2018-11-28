@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/crypto"
-	whisper "github.com/ProtonFundation/Proton/whisper/whisperv5"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/crypto"
+	whisper "github.com/ProtonFoundation/Proton/whisper/whisperv5"
 )
 
 const powRequirement = 0.00001

@@ -26,11 +26,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/swarm/api"
-	swarm "github.com/ProtonFundation/Proton/swarm/api/client"
-	"github.com/ProtonFundation/Proton/swarm/storage"
-	"github.com/ProtonFundation/Proton/swarm/testutil"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/swarm/api"
+	swarm "github.com/ProtonFoundation/Proton/swarm/api/client"
+	"github.com/ProtonFoundation/Proton/swarm/storage"
+	"github.com/ProtonFoundation/Proton/swarm/testutil"
 )
 
 func TestBzzGetPath(t *testing.T) {

@@ -17,7 +17,7 @@
 // Package bind generates Ethereum contract Go bindings.
 //
 // Detailed usage document and tutorial available on the go-ethereum Wiki page:
-// https://github.com/ProtonFundation/Proton/wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts
+// https://github.com/ProtonFoundation/Proton/wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts
 package bind
 
 import (
@@ -27,7 +27,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/ProtonFundation/Proton/accounts/abi"
+	"github.com/ProtonFoundation/Proton/accounts/abi"
 	"golang.org/x/tools/imports"
 )
 

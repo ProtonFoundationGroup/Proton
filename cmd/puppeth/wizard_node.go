@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ProtonFundation/Proton/accounts/keystore"
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/accounts/keystore"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

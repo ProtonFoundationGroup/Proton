@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/log"
 )
 
 func init() {

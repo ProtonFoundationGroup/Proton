@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/ProtonFundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common"
 )
 
 type AddrLocker struct {

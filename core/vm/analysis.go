@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ProtonFundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common"
 )
 
 // destinations stores one map per contract (keyed by hash of code).

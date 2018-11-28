@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/crypto/ecies"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/crypto/ecies"
 )
 
 func TestEnvelopeOpen(t *testing.T) {

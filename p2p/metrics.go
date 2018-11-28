@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/ProtonFundation/Proton/metrics"
+	"github.com/ProtonFoundation/Proton/metrics"
 )
 
 var (

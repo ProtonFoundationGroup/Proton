@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ProtonFundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common"
 )
 
 type testInPayment struct {

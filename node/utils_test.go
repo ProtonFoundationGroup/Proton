@@ -22,8 +22,8 @@ package node
 import (
 	"reflect"
 
-	"github.com/ProtonFundation/Proton/p2p"
-	"github.com/ProtonFundation/Proton/rpc"
+	"github.com/ProtonFoundation/Proton/p2p"
+	"github.com/ProtonFoundation/Proton/rpc"
 )
 
 // NoopService is a trivial implementation of the Service interface.

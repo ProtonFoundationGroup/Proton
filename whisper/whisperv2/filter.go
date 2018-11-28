@@ -21,7 +21,7 @@ package whisperv2
 import (
 	"crypto/ecdsa"
 
-	"github.com/ProtonFundation/Proton/event/filter"
+	"github.com/ProtonFoundation/Proton/event/filter"
 )
 
 // Filter is used to subscribe to specific types of whisper messages.

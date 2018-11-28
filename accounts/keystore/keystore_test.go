@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ProtonFundation/Proton/accounts"
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/event"
+	"github.com/ProtonFoundation/Proton/accounts"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/event"
 )
 
 var testSigData = make([]byte, 32)

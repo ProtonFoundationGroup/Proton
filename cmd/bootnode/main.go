@@ -23,13 +23,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ProtonFundation/Proton/cmd/utils"
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/p2p/discover"
-	"github.com/ProtonFundation/Proton/p2p/discv5"
-	"github.com/ProtonFundation/Proton/p2p/nat"
-	"github.com/ProtonFundation/Proton/p2p/netutil"
+	"github.com/ProtonFoundation/Proton/cmd/utils"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/p2p/discover"
+	"github.com/ProtonFoundation/Proton/p2p/discv5"
+	"github.com/ProtonFoundation/Proton/p2p/nat"
+	"github.com/ProtonFoundation/Proton/p2p/netutil"
 )
 
 func main() {

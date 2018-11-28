@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ProtonFundation/Proton/core/asm"
+	"github.com/ProtonFoundation/Proton/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

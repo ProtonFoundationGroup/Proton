@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ProtonFundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common"
 )
 
 // In this test, nodes try to randomly resolve each other.

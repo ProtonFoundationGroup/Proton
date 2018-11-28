@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ProtonFundation/Proton/accounts/usbwallet"
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/rpc"
+	"github.com/ProtonFoundation/Proton/accounts/usbwallet"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/rpc"
 	"github.com/robertkrimen/otto"
 )
 

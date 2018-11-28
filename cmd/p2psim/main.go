@@ -29,12 +29,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/p2p"
-	"github.com/ProtonFundation/Proton/p2p/discover"
-	"github.com/ProtonFundation/Proton/p2p/simulations"
-	"github.com/ProtonFundation/Proton/p2p/simulations/adapters"
-	"github.com/ProtonFundation/Proton/rpc"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/p2p"
+	"github.com/ProtonFoundation/Proton/p2p/discover"
+	"github.com/ProtonFoundation/Proton/p2p/simulations"
+	"github.com/ProtonFoundation/Proton/p2p/simulations/adapters"
+	"github.com/ProtonFoundation/Proton/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

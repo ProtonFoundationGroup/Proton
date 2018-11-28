@@ -21,7 +21,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/ProtonFundation/Proton/eth/tracers/internal/tracers"
+	"github.com/ProtonFoundation/Proton/eth/tracers/internal/tracers"
 )
 
 // all contains all the built in JavaScript tracers by name.

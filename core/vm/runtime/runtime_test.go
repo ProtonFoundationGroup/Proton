@@ -21,11 +21,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/accounts/abi"
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/core/state"
-	"github.com/ProtonFundation/Proton/core/vm"
-	"github.com/ProtonFundation/Proton/ethdb"
+	"github.com/ProtonFoundation/Proton/accounts/abi"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/core/state"
+	"github.com/ProtonFoundation/Proton/core/vm"
+	"github.com/ProtonFoundation/Proton/ethdb"
 )
 
 func TestDefaults(t *testing.T) {

@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ProtonFundation/Proton"
-	"github.com/ProtonFundation/Proton/accounts/abi"
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/params"
+	"github.com/ProtonFoundation/Proton"
+	"github.com/ProtonFoundation/Proton/accounts/abi"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/params"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

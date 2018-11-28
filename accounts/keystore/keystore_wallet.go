@@ -19,9 +19,9 @@ package keystore
 import (
 	"math/big"
 
-	ethereum "github.com/ProtonFundation/Proton"
-	"github.com/ProtonFundation/Proton/accounts"
-	"github.com/ProtonFundation/Proton/core/types"
+	ethereum "github.com/ProtonFoundation/Proton"
+	"github.com/ProtonFoundation/Proton/accounts"
+	"github.com/ProtonFoundation/Proton/core/types"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

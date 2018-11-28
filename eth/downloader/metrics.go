@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"github.com/ProtonFundation/Proton/metrics"
+	"github.com/ProtonFoundation/Proton/metrics"
 )
 
 var (

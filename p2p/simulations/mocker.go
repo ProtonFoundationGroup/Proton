@@ -24,8 +24,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/p2p/discover"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/p2p/discover"
 )
 
 //a map of mocker names to its function

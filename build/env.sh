@@ -10,7 +10,7 @@ fi
 # Create fake Go workspace if it doesn't exist yet.
 workspace="$PWD/build/_workspace"
 root="$PWD"
-ethdir="$workspace/src/github.com/ProtonFundation"
+ethdir="$workspace/src/github.com/ProtonFoundation"
 if [ ! -L "$ethdir/Proton" ]; then
     mkdir -p "$ethdir"
     cd "$ethdir"

@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ProtonFundation/Proton/accounts"
-	"github.com/ProtonFundation/Proton/event"
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/accounts"
+	"github.com/ProtonFoundation/Proton/event"
+	"github.com/ProtonFoundation/Proton/log"
 	"github.com/karalabe/hid"
 )
 

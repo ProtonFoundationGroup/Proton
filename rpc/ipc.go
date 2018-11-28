@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/log"
 )
 
 // CreateIPCListener creates an listener, on Unix platforms this is a unix socket, on

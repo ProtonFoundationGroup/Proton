@@ -54,7 +54,7 @@ func TestBloom(t *testing.T) {
 import (
 	"testing"
 
-	"github.com/ProtonFundation/Proton/core/state"
+	"github.com/ProtonFoundation/Proton/core/state"
 )
 
 func TestBloom9(t *testing.T) {

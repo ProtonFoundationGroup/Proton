@@ -22,10 +22,10 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/rlp"
-	"github.com/ProtonFundation/Proton/trie"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/rlp"
+	"github.com/ProtonFoundation/Proton/trie"
 )
 
 var emptyCodeHash = crypto.Keccak256(nil)

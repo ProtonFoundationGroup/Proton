@@ -19,7 +19,7 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/ProtonFundation/Proton/p2p/discover"
+	"github.com/ProtonFoundation/Proton/p2p/discover"
 )
 
 // Protocol represents a P2P subprotocol implementation.

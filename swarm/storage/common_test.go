@@ -24,7 +24,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/log"
 )
 
 type brokenLimitedReader struct {

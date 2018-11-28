@@ -24,9 +24,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/ProtonFundation/Proton/bmt"
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/crypto/sha3"
+	"github.com/ProtonFoundation/Proton/bmt"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/crypto/sha3"
 )
 
 type Hasher func() hash.Hash

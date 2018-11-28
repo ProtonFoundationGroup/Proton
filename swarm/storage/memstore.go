@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/log"
 )
 
 const (

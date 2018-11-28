@@ -24,8 +24,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/common/math"
-	"github.com/ProtonFundation/Proton/crypto/randentropy"
+	"github.com/ProtonFoundation/Proton/common/math"
+	"github.com/ProtonFoundation/Proton/crypto/randentropy"
 )
 
 const TestCount = 1000

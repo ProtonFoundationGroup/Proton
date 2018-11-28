@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ProtonFundation/Proton/rpc"
-	"github.com/ProtonFundation/Proton/swarm"
-	"github.com/ProtonFundation/Proton/swarm/api"
+	"github.com/ProtonFoundation/Proton/rpc"
+	"github.com/ProtonFoundation/Proton/swarm"
+	"github.com/ProtonFoundation/Proton/swarm/api"
 
 	"github.com/docker/docker/pkg/reexec"
 )

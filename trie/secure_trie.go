@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/log"
 )
 
 var secureKeyPrefix = []byte("secure-key-")

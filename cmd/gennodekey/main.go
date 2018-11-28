@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/hex"
-	"github.com/ProtonFundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/crypto"
 	"fmt"
 )
 

@@ -25,7 +25,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common"
 	"crypto/elliptic"
 )
 

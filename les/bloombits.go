@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/ProtonFundation/Proton/common/bitutil"
-	"github.com/ProtonFundation/Proton/light"
+	"github.com/ProtonFoundation/Proton/common/bitutil"
+	"github.com/ProtonFoundation/Proton/light"
 )
 
 const (

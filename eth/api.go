@@ -25,17 +25,17 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/common/hexutil"
-	"github.com/ProtonFundation/Proton/core"
-	"github.com/ProtonFundation/Proton/core/state"
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/miner"
-	"github.com/ProtonFundation/Proton/params"
-	"github.com/ProtonFundation/Proton/rlp"
-	"github.com/ProtonFundation/Proton/rpc"
-	"github.com/ProtonFundation/Proton/trie"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common/hexutil"
+	"github.com/ProtonFoundation/Proton/core"
+	"github.com/ProtonFoundation/Proton/core/state"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/miner"
+	"github.com/ProtonFoundation/Proton/params"
+	"github.com/ProtonFoundation/Proton/rlp"
+	"github.com/ProtonFoundation/Proton/rpc"
+	"github.com/ProtonFoundation/Proton/trie"
 )
 
 // PublicEthereumAPI provides an API to access Ethereum full node-related

@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common"
 )
 
 func TestPack(t *testing.T) {

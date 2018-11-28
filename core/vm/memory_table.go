@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ProtonFundation/Proton/common/math"
+	"github.com/ProtonFoundation/Proton/common/math"
 )
 
 func memorySha3(stack *Stack) *big.Int {

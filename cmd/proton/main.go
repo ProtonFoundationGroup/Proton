@@ -25,16 +25,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ProtonFundation/Proton/accounts"
-	"github.com/ProtonFundation/Proton/accounts/keystore"
-	"github.com/ProtonFundation/Proton/cmd/utils"
-	"github.com/ProtonFundation/Proton/console"
-	"github.com/ProtonFundation/Proton/eth"
-	"github.com/ProtonFundation/Proton/ethclient"
-	"github.com/ProtonFundation/Proton/internal/debug"
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/metrics"
-	"github.com/ProtonFundation/Proton/node"
+	"github.com/ProtonFoundation/Proton/accounts"
+	"github.com/ProtonFoundation/Proton/accounts/keystore"
+	"github.com/ProtonFoundation/Proton/cmd/utils"
+	"github.com/ProtonFoundation/Proton/console"
+	"github.com/ProtonFoundation/Proton/eth"
+	"github.com/ProtonFoundation/Proton/ethclient"
+	"github.com/ProtonFoundation/Proton/internal/debug"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/metrics"
+	"github.com/ProtonFoundation/Proton/node"
 	"gopkg.in/urfave/cli.v1"
 )
 
@@ -55,16 +55,10 @@ var (
 		utils.UnlockedAccountFlag,
 		utils.PasswordFileFlag,
 		utils.BootnodesFlag,
-		utils.BootnodesV4Flag,
-		utils.BootnodesV5Flag,
+
 		utils.DataDirFlag,
 		utils.KeyStoreDirFlag,
-		utils.NoUSBFlag,
-		utils.DashboardEnabledFlag,
-		utils.DashboardAddrFlag,
-		utils.DashboardPortFlag,
-		utils.DashboardRefreshFlag,
-		utils.DashboardAssetsFlag,
+
 		utils.EthashCacheDirFlag,
 		utils.EthashCachesInMemoryFlag,
 		utils.EthashCachesOnDiskFlag,
@@ -81,12 +75,7 @@ var (
 		utils.TxPoolAccountQueueFlag,
 		utils.TxPoolGlobalQueueFlag,
 		utils.TxPoolLifetimeFlag,
-		utils.FastSyncFlag,
-		utils.LightModeFlag,
-		utils.SyncModeFlag,
-		utils.LightServFlag,
-		utils.LightPeersFlag,
-		utils.LightKDFFlag,
+
 		utils.CacheFlag,
 		utils.TrieCacheGenFlag,
 		utils.ListenPortFlag,
@@ -102,6 +91,23 @@ var (
 		utils.DiscoveryV5Flag,
 		utils.NetrestrictFlag,
 		/* add by liangc : disable
+		utils.BootnodesV4Flag,
+		utils.BootnodesV5Flag,
+
+		utils.NoUSBFlag,
+		utils.DashboardEnabledFlag,
+		utils.DashboardAddrFlag,
+		utils.DashboardPortFlag,
+		utils.DashboardRefreshFlag,
+		utils.DashboardAssetsFlag,
+
+		utils.FastSyncFlag,
+		utils.LightModeFlag,
+		utils.SyncModeFlag,
+		utils.LightServFlag,
+		utils.LightPeersFlag,
+		utils.LightKDFFlag,
+
 		utils.NodeKeyFileFlag,
 		utils.NodeKeyHexFlag,
 		*/

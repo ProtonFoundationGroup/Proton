@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common"
 	"golang.org/x/tools/imports"
 )
 

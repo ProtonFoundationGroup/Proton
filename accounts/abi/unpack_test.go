@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/common"
 	"github.com/stretchr/testify/require"
 )
 

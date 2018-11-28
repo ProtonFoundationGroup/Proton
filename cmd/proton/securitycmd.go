@@ -3,13 +3,13 @@ package main
 import (
 	"gopkg.in/urfave/cli.v1"
 	"fmt"
-	"github.com/ProtonFundation/Proton/node"
+	"github.com/ProtonFoundation/Proton/node"
 	"os"
 	"io/ioutil"
 	"path/filepath"
 	"encoding/hex"
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/accounts/keystore"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/accounts/keystore"
 	"crypto/ecdsa"
 	"github.com/pborman/uuid"
 )

@@ -29,7 +29,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/params"
+	"github.com/ProtonFoundation/Proton/params"
 )
 
 var (

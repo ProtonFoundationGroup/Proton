@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/common/math"
+	"github.com/ProtonFoundation/Proton/common/math"
 )
 
 func TestBlockNumberJSONUnmarshal(t *testing.T) {

@@ -21,9 +21,9 @@ package geth
 import (
 	"math/big"
 
-	"github.com/ProtonFundation/Proton/core/types"
-	"github.com/ProtonFundation/Proton/ethclient"
-	"github.com/ProtonFundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/ethclient"
+	"github.com/ProtonFoundation/Proton/common"
 )
 
 // EthereumClient provides access to the Ethereum APIs.

@@ -21,7 +21,7 @@ package keystore
 import (
 	"time"
 
-	"github.com/ProtonFundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/log"
 	"github.com/rjeczalik/notify"
 )
 

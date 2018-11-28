@@ -20,10 +20,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/rlp"
-	"github.com/ProtonFundation/Proton/trie"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/rlp"
+	"github.com/ProtonFoundation/Proton/trie"
 )
 
 // NodeSet stores a set of trie nodes. It implements trie.Database and can also

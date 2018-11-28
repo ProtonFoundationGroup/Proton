@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/ProtonFundation/Proton/core"
-	"github.com/ProtonFundation/Proton/eth"
-	"github.com/ProtonFundation/Proton/eth/downloader"
-	"github.com/ProtonFundation/Proton/ethclient"
-	"github.com/ProtonFundation/Proton/ethstats"
-	"github.com/ProtonFundation/Proton/les"
-	"github.com/ProtonFundation/Proton/node"
-	"github.com/ProtonFundation/Proton/p2p"
-	"github.com/ProtonFundation/Proton/p2p/nat"
-	"github.com/ProtonFundation/Proton/params"
-	whisper "github.com/ProtonFundation/Proton/whisper/whisperv5"
+	"github.com/ProtonFoundation/Proton/core"
+	"github.com/ProtonFoundation/Proton/eth"
+	"github.com/ProtonFoundation/Proton/eth/downloader"
+	"github.com/ProtonFoundation/Proton/ethclient"
+	"github.com/ProtonFoundation/Proton/ethstats"
+	"github.com/ProtonFoundation/Proton/les"
+	"github.com/ProtonFoundation/Proton/node"
+	"github.com/ProtonFoundation/Proton/p2p"
+	"github.com/ProtonFoundation/Proton/p2p/nat"
+	"github.com/ProtonFoundation/Proton/params"
+	whisper "github.com/ProtonFoundation/Proton/whisper/whisperv5"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

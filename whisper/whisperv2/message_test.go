@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ProtonFundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/crypto"
 )
 
 // Tests whether a message can be wrapped without any identity or encryption.

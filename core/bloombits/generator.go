@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/ProtonFundation/Proton/core/types"
+	"github.com/ProtonFoundation/Proton/core/types"
 )
 
 // errSectionOutOfBounds is returned if the user tried to add more bloom filters

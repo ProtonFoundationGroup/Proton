@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ProtonFundation/Proton/common/math"
-	"github.com/ProtonFundation/Proton/core/vm"
+	"github.com/ProtonFoundation/Proton/common/math"
+	"github.com/ProtonFoundation/Proton/core/vm"
 )
 
 // Compiler contains information about the parsed source

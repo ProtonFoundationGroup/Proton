@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ProtonFundation/Proton/event"
-	"github.com/ProtonFundation/Proton/node"
-	"github.com/ProtonFundation/Proton/p2p"
-	"github.com/ProtonFundation/Proton/p2p/discover"
-	"github.com/ProtonFundation/Proton/p2p/simulations/adapters"
-	"github.com/ProtonFundation/Proton/rpc"
+	"github.com/ProtonFoundation/Proton/event"
+	"github.com/ProtonFoundation/Proton/node"
+	"github.com/ProtonFoundation/Proton/p2p"
+	"github.com/ProtonFoundation/Proton/p2p/discover"
+	"github.com/ProtonFoundation/Proton/p2p/simulations/adapters"
+	"github.com/ProtonFoundation/Proton/rpc"
 )
 
 // testService implements the node.Service interface and provides protocols

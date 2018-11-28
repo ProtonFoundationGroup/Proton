@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ProtonFundation/Proton/common/mclock"
+	"github.com/ProtonFoundation/Proton/common/mclock"
 )
 
 const rcConst = 1000000

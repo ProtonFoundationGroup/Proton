@@ -19,10 +19,10 @@ package shhclient
 import (
 	"context"
 
-	"github.com/ProtonFundation/Proton"
-	"github.com/ProtonFundation/Proton/common/hexutil"
-	"github.com/ProtonFundation/Proton/rpc"
-	whisper "github.com/ProtonFundation/Proton/whisper/whisperv5"
+	"github.com/ProtonFoundation/Proton"
+	"github.com/ProtonFoundation/Proton/common/hexutil"
+	"github.com/ProtonFoundation/Proton/rpc"
+	whisper "github.com/ProtonFoundation/Proton/whisper/whisperv5"
 )
 
 // Client defines typed wrappers for the Whisper v5 RPC API.

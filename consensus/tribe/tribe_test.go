@@ -5,11 +5,11 @@ import (
 	"crypto/ecdsa"
 	"crypto/rand"
 	mrand "math/rand"
-	"github.com/ProtonFundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/crypto"
 	"crypto/elliptic"
 	"time"
 	"encoding/hex"
-	"github.com/ProtonFundation/Proton/accounts/keystore"
+	"github.com/ProtonFoundation/Proton/accounts/keystore"
 )
 
 func TestNormal(t *testing.T) {

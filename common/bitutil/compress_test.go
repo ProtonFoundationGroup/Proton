@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ProtonFundation/Proton/common/hexutil"
+	"github.com/ProtonFoundation/Proton/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

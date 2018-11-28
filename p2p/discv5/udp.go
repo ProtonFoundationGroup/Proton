@@ -24,12 +24,12 @@ import (
 	"net"
 	"time"
 
-	"github.com/ProtonFundation/Proton/common"
-	"github.com/ProtonFundation/Proton/crypto"
-	"github.com/ProtonFundation/Proton/log"
-	"github.com/ProtonFundation/Proton/p2p/nat"
-	"github.com/ProtonFundation/Proton/p2p/netutil"
-	"github.com/ProtonFundation/Proton/rlp"
+	"github.com/ProtonFoundation/Proton/common"
+	"github.com/ProtonFoundation/Proton/crypto"
+	"github.com/ProtonFoundation/Proton/log"
+	"github.com/ProtonFoundation/Proton/p2p/nat"
+	"github.com/ProtonFoundation/Proton/p2p/netutil"
+	"github.com/ProtonFoundation/Proton/rlp"
 )
 
 const Version = 4
