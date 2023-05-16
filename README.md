@@ -1,4 +1,5 @@
 # Proton
+----------
 
 Proton is an [Ethereum-compatible](https://github.com/ProtonFoundation/Proton) project. It will uses a new consensus.
 
